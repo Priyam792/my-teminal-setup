@@ -63,7 +63,7 @@ my-terminal-setup/
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/my-terminal-setup.git
+git clone https://github.com/Priyam792/my-terminal-setup.git
 cd my-terminal-setup
 ```
 
