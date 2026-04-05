@@ -38,7 +38,7 @@ This setup uses a Nerd Font for proper icon rendering.
 
 👉 Recommended:
 
-* **MesloLGS Nerd Font** (install with: `sudo apt install fonts-meslo-lg-nerd-font` or download from https://www.nerdfonts.com/font-downloads)
+* **MesloLGS Nerd Font** (Download from : https://www.nerdfonts.com/font-downloads)
 * or any Nerd Font of your choice
 
 ---
