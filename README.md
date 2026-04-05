@@ -6,8 +6,6 @@ A clean, minimal, and aesthetic terminal setup using **Kitty + Fastfetch** with 
 
 ## 📸 Preview
 
-![Setup](screenshots/setup.png)
-
 ---
 
 ## ✨ Features
@@ -38,8 +36,68 @@ This setup uses a Nerd Font for proper icon rendering.
 
 👉 Recommended:
 
-* **MesloLGS Nerd Font** (Download from : https://www.nerdfonts.com/font-downloads)
-* or any Nerd Font of your choice
+* **MesloLGS Nerd Font**
+  Download from: https://www.nerdfonts.com/font-downloads
+
+* Or any Nerd Font of your choice
+
+---
+
+## 🎨 Tokyo Night Theme (Kitty)
+
+This setup uses a **minimal dark theme with transparency**, based on the **Tokyo Night theme**.
+
+### 🎨 Applying Tokyo Night Theme (Kitty + kitten themes)
+
+Kitty provides built-in themes via `kitten themes`.
+
+Run:
+
+```bash
+kitty +kitten themes
+```
+
+Then search for:
+
+```
+Tokyo Night
+```
+
+Select it and apply.
+
+To make it permanent, add this line to your `kitty.conf`:
+
+```conf
+include ~/.config/kitty/themes/Tokyo_Night.conf
+```
+
+---
+
+### 🧊 Glass Effect (Blur + Transparency) (optional)
+
+Transparency is handled by Kitty, but **blur depends on your desktop environment**.
+
+#### For GNOME:
+
+Install extension:
+👉 **Blur My Shell**
+
+Then:
+
+* Enable blur
+* Adjust opacity & radius
+
+---
+
+### 🎨 Colors
+
+You can customize colors inside `kitty.conf`:
+
+```conf
+background #0f111a
+foreground #cdd6f4
+cursor #f5e0dc
+```
 
 ---
 
@@ -106,9 +164,7 @@ The Fastfetch config uses a demo image path:
 ~/Pictures/demo.png
 ```
 
-👉 You MUST replace it with your own image path:
-
-Example:
+👉 Replace it with your own image:
 
 ```
 /home/your-username/Pictures/your-image.png
@@ -118,16 +174,22 @@ Example:
 
 ### 🎨 Font Requirement
 
-If icons are not showing properly:
+If icons are not showing:
 
-* Make sure a **Nerd Font** is installed
-* Set it in your terminal settings
+* Install a Nerd Font
+* Set it in Kitty config
 
 ---
 
-### 🧊 Blur / Transparency
+### 🧠 Nerd Font Not Showing?
 
-Blur effect depends on your desktop environment (GNOME extensions like Blur My Shell).
+Run:
+
+```
+fc-cache -fv
+```
+
+Then restart terminal
 
 ---
 
@@ -135,10 +197,11 @@ Blur effect depends on your desktop environment (GNOME extensions like Blur My S
 
 You can:
 
-* Change colors in Fastfetch config
+* Change Fastfetch layout
 * Modify box width
 * Replace icons
-* Use your own image
+* Use different fonts
+* Change colors in Kitty
 
 ---
 
