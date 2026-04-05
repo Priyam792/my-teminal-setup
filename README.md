@@ -6,6 +6,8 @@ A clean, minimal, and aesthetic terminal setup using **Kitty + Fastfetch** with 
 
 ## 📸 Preview
 
+![Setup](screenshots/setup.png)
+
 ---
 
 ## ✨ Features
